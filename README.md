@@ -3,14 +3,14 @@
 This repository is part of the [DiSSCo](https://dissco.eu) project. One of the services under development is ELViS (**E**uropean **L**oans and **Vi**sit **S**ystem) which will unify access requests to all specimens in collections in Europe (490Mio of 21 [Sythesys+](http://www.synthesys.info/) institutions to start with), integrate a live data dashboard reporting on collection data and access, and it will deliver improved management on loans and for digitization on demand workflows. 
 
 Big picture goals: 
--          Single sign-on (ORCID integration & IAA pilot)
--          Researchers’ profiles to ensure credibility
--          Faceted discovery of collections material across participating facilities
--          Online applications of Transnational and Virtual Access plus helpdesk
--          Online applications for loans and monitoring of loans
--          Digitisation on Demand workflows support
--          Reporting on specimens demand by loans over time with a live data dashboard
--          Testbed for DS Architecture with CORDRA & DOIPv2
+* Single sign-on (ORCID integration & IAA pilot)
+* Researchers’ profiles to ensure credibility
+* Faceted discovery of collections material across participating facilities
+* Online applications of Transnational and Virtual Access plus helpdesk
+* Online applications for loans and monitoring of loans
+* Digitisation on Demand workflows support
+* Reporting on specimens demand by loans over time with a live data dashboard
+* Testbed for DS Architecture with CORDRA & DOIPv2
 
 # Motivation
 
