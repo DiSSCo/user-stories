@@ -16,6 +16,11 @@ Big picture goals:
 
 The DiSSCo Coordination team is collecting user stories to better understand the needs and requirements of the community and to prepare our development roadmap.
 
+# Top Level Data Flow (for DiSSCo) 
+
+![top level data flow](top-level-data-flow-diagram-in-DiSSCo.png)
+
+
 # Structure of user stories 
 
 User stories are short and simple descriptions told from a perspective of a given stakeholder/persona. The typical format is: 
