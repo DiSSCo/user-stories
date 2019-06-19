@@ -1,6 +1,6 @@
 # About
 
-This repository is part of the [DiSSCo](https://dissco.eu) project. One of the services under development is ELViS (**E**uropean **L**oans and **Vi**sit **S**ystem) which will unify access requests to all specimens in collections in Europe (490Mio of 21 [Synthesys+](http://www.synthesys.info/) institutions to start with), integrate a live data dashboard reporting on collection data and access, and it will deliver improved management on loans and for digitization on demand workflows. 
+This repository is part of the [DiSSCo](https://dissco.eu) project. One of the services under development is ELViS (**E**uropean **L**oans and **Vi**sit **S**ystem) which will unify access requests to all specimens in collections in Europe (490Mio of 21 [Synthesys+](http://www.synthesys.info/) institutions to start with), integrate a live data dashboard reporting on collection data and access, and it will deliver improved management on loans and for digitization on demand workflows. for an overview of the user stories in groups see: https://github.com/DiSSCo/user-stories/projects/1
 
 Big picture goals: 
 * Single sign-on (ORCID integration & IAA pilot)
