@@ -7,3 +7,7 @@ A simple diagram to show the various stages and different actors/roles. This doe
 
 
 ![ELViS User Journey](elvis-user-journey.jpeg "ELViS User Journey")
+
+## Mapping / Connecting Stories 
+
+![Connecting User Stories](map-user-stories "Mapping user stories")
