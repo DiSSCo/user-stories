@@ -10,4 +10,4 @@ A simple diagram to show the various stages and different actors/roles. This doe
 
 ## Mapping / Connecting Stories 
 
-![Connecting User Stories](map-user-stories "Mapping user stories")
+![Connecting User Stories](map-user-stories.png "Mapping user stories")
