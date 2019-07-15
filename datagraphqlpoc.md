@@ -1,16 +1,16 @@
-##Problem Statement
+## Problem Statement
 Combine various authoratative data sources (for institute profile. people profile, collection catalog etc.)
 
 ELViS needs to know various institutional information such as facilities, equipments, and labs. Currently there are several authoratative sources for this. How do we link and combine the data to create a single usable data source for ELViS? 
 
-##Proof of Concept 
+## Proof of Concept 
 
 Using a simple [GraphQL server](https://github.com/guilouro/simple-graphql-server) we can query different types of data structures (or API endpoints). This can done using common REST methonds however the schema and type approach (see below) provides more flexibility and control. There is also a way to create Interface that creates abstraction for different data types. 
 
-##Server Setup 
+## Server Setup 
 Install a simple [GraphQL server](https://github.com/guilouro/simple-graphql-server). This is locally accessible via [http://localhost:3000/graphiql](http://localhost:3000/graphiql). 
 
-##Data
+## Data
 I created two json files. Basically those are my data sources for this experiment. 
 One grabbed from GBIF and one created manually based on CETAF facility data. At the moment we are using datasets that describe similar entities but there are no links. 
 
@@ -115,6 +115,8 @@ const resolvers = {
 
 Now, we use a graphQL client (such as graphiql) to resolver these queries. 
 
+## Queries
+
 Our first query (provides the GBIF code and cetaf code) [of course the link here is known by us but this is to simply things]
 
 
@@ -133,7 +135,9 @@ cetaffacility(id: 1965) {
 }
 ```
 
-Result (based on the json files we described above) 
+## Results
+
+(based on the json files we described above) 
 
 ```
 
@@ -198,6 +202,3 @@ Result
 ```
 
 There is a way to combine these search in one query. 
-
- 
-
