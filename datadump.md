@@ -34,15 +34,16 @@ https://github.com/DiSSCo/user-stories/issues/138 'Search for experts'
 https://github.com/DiSSCo/user-stories/issues/90 'Indicate what facilities one like to use during a visit'
 https://github.com/DiSSCo/user-stories/issues/6 'Visit a relevant institution for a schedule/taxonomic group'
 
-### Criteria for authoritative dataproviders and on criteria for people profiles
+### Criteria for authoritative data providers and on criteria for people profiles
 
+* Minimum items needed: Linkable ID, name, description. 
 * API (if not API some way to import/export data)
 * Standard parsable output (such as JSON, csv) 
 * Linkable items (such as institutionCode, occurrenceID, facility id, lab id, ORCID). 
 * For People profile we need 
    - Linkable institutionCode
    - Verification method? Trust? 
-   - Specility, expertise (such as how many publications, research topic etc). 
+   - Speciality, expertise (such as how many publications, research topic etc). 
  * Data Verification method? Trust?  
 ### Constraints 
 
