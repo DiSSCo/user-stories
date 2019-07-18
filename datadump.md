@@ -100,3 +100,15 @@ And bring the facilities data from [CETAF](https://cetaf.org/research_passport).
    - Current Temporary Exhibitions 
    - Number of future exhibitions 
    - Future exhibitions
+
+### Simple Parser 
+
+This is just a simple proof of concept to utilise the bloodhound API. 
+https://github.com/DiSSCo/user-stories/blob/master/generate-elvis-profile-data.py
+
+``` 
+$ python generate-elvis-profile-data.py 0000-0001-7618-5230
+Shorthouse, D. Oreonetides vaginatus urn:catalog:UASM:UASM329573 University of Alberta Museums (UAM) UASM329573 https://gbif.org/occurrence/769279710
+Shorthouse, D. Tunagyna debilis urn:catalog:UASM:UASM329612 University of Alberta Museums (UAM) UASM329612 https://gbif.org/occurrence/769279986
+Shorthouse, D. Oreonetides vaginatus urn:catalog:UASM:UASM329574 University of Alberta Museums (UAM) UASM329574 https://gbif.org/occurrence/769281222
+```
