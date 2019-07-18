@@ -61,6 +61,8 @@ For example, [https://bloodhound-tracker.net/0000-0001-7618-5230/specimens.json]
 
 
 ```
+id|https://orcid.org/0000-0001-7618-5230
+givenName|David Peter
 identifiedBy|Shorthouse, D.
 decimalLatitude|56.839
 occurrenceID|urn:catalog:UASM:UASM329573
