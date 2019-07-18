@@ -2,19 +2,48 @@
 
 ### Problem and Goals 
 
-ELViS will handle various visit, loan, and digitisation requests. In order to do that the system needs at least three types of datasets: 1) Institutional data (location, description, facilities etc) 2) Researcher/expert profile data and 3) Collection Index. 
+ELViS will handle various visit, loan, and digitisation requests. In order to do that it needs at least three types of datasets: 
+1. Institutional data (location, description, facilities etc) 
+2. Researcher/expert profile data 
+3. Collection Index. 
 
 In this test and example, we focus on 1) and 2). The collectin index prototype is currently [under construction](http://nsidr.org/). 
 
 The main goal is to gather and link relevant information for various authoritative data sources (such as GBIF, CETAF). 
 
+We also need to verify the data coming from different sources. For example, trusted data provider list? 
+
 ### Requirements 
+(and related user stories) 
 
 1. Provide researcher/expert/staff profile 
-2. Search and query by name, orcidid 
-3. Link the person with the institutional. 
-4. Link the person with various research output (such as publication, specimen identification). 
 
+https://github.com/DiSSCo/user-stories/issues/82 'Know who is in charge of the collection'
+
+2. Borrower profile 
+
+https://github.com/DiSSCo/user-stories/issues/10
+https://github.com/DiSSCo/user-stories/issues/26 'Assess and validate the request for registration'
+
+3. Search and query by name, ORCID 
+https://github.com/DiSSCo/user-stories/issues/138 'Search for experts'
+4. Link the person with the institution. 
+6. Link the person with various research output (such as publication, specimen identification). 
+6. Provide facility data 
+
+https://github.com/DiSSCo/user-stories/issues/90 'Indicate what facilities one like to use during a visit'
+https://github.com/DiSSCo/user-stories/issues/6 'Visit a relevant institution for a schedule/taxonomic group'
+
+### Criteria for authoritative dataproviders and on criteria for people profiles
+
+* API (if not API some way to import/export data)
+* Standard parsable output (such as JSON, csv) 
+* Linkable items (such as institutionCode, occurrenceID, facility id, lab id, ORCID). 
+* For People profile we need 
+   - Linkable institutionCode
+   - Verification method? Trust? 
+   - Specility, expertise (such as how many publications, research topic etc). 
+ * Data Verification method? Trust?  
 ### Constraints 
 
 1. Not all data sources provide API. 
