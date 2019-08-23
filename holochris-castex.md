@@ -24,4 +24,4 @@ RDF	isRepresentationOf	http://treatment.plazi.org/id/83FE44F3-150E-49F2-901C-69B
 
 Visual representation: 
 
-![Holochris Castex](holochirs-castex.png)
+![Holochris Castex](holochris-castex.png)
